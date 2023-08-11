@@ -1,0 +1,29 @@
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.slider-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.slider-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#prevBtn {
+  position: absolute;
+  left: 0;
+}
+
+#nextBtn {
+  position: absolute;
+  right: 0;
+}
